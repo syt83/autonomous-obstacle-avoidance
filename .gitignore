@@ -1,0 +1,67 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.mat
+slprj/
+*.slxc
+*.autosave
+
+# Simulink
+*.slx.r*
+*.slx.original
+*.mdl.r*
+*.mdl.original
+
+# Simulink Code Generation
+*_grt_rtw/
+*_ert_rtw/
+slprj/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (if using Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Documentation build
+docs/_build/
+site/
+
+# Results (keep structure, ignore data)
+results/data/*.mat
+results/logs/*.txt
+# Keep images for documentation
+# results/images/
+
+# Custom
+*.bak
+*.backup
